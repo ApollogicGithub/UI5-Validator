@@ -5,22 +5,25 @@ UI5 Validator created by Apollogic
 Validation library for basic SAP UI5 user input controls.
 
 List of supported controls: 
-    * sap.m.Input
-    * sap.m.DatePicker
-    * sap.m.ComboBox
-    * sap.m.TextArea
-    * sap.m.DateRangeSelection
-    * sap.m.DateTimePicker
-    * sap.m.MaskInput
-    * sap.m.TimePicker
-    * sap.m.MultiComboBox
-    * sap.m.MultiInput
-    * sap.m.StepInput
-    * sap.m.RadioButtonGroup - only with custom data
-    * sap.m.CheckBox - only with custom data
+ - sap.m.Input
+ - sap.m.DatePicker
+ - sap.m.ComboBox
+ - sap.m.TextArea
+ - sap.m.DateRangeSelection
+ - sap.m.DateTimePicker
+ - sap.m.MaskInput
+ - sap.m.TimePicker
+ - sap.m.MultiComboBox
+ - sap.m.MultiInput
+ - sap.m.StepInput
+ - sap.m.RadioButtonGroup - only with custom data
+ - sap.m.CheckBox - only with custom data
 
 ## Installation
 npm i @apollogic/ui5-validator --save-dev
+
+## Sample use
+To see how the validator works, visit https://github.com/ApollogicGithub/UI5-Validator-Sample-App
 
 ## Usage
 1. Import validator in UI5 controller:
@@ -32,17 +35,21 @@ sap.ui.define([
         "use strict";
     });
 
-2. Use Validator.validate(oView) to validate all controls in specified view/part of the view or
-Validator.validateControl(oControl) to check single control
+2. Validate
+
+Validator.validate(oView, customControlNames) - validate all controls in specified view/part of the view. Optionally add custom control names if needed
+
+Validator.validateControl(oControl) - check single control
 
 ## Supported UI5 versions
-1.121
-1.120
-1.117
-1.114
-1.108
-1.96
-1.84
-1.71
+ - 1.121
+ - 1.120
+ - 1.117
+ - 1.114
+ - 1.108
+ - 1.96
+ - 1.84
+ - 1.71
+
 
 
