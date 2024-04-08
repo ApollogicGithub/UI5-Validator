@@ -23,7 +23,9 @@ List of supported controls:
 npm i @apollogic/ui5-validator --save-dev
 
 ## Sample use
-To see how the validator works, visit https://github.com/ApollogicGithub/UI5-Validator-Sample-App
+To see simplified UI5 example online, visit https://jsfiddle.net/t97e8xfd/1/
+
+To download sample UI5 application, visit https://github.com/ApollogicGithub/UI5-Validator-Sample-App
 
 ## Usage
 1. Import validator in UI5 controller:

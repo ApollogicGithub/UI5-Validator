@@ -1,6 +1,6 @@
 {
   "name": "@apollogic/ui5-validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SAP UI5 validator for common user input controls",
   "main": "src/index.js",
   "repository": {
